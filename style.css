@@ -1,0 +1,47 @@
+/* Sayfadaki her şeyi tam ortaya topluyoruz */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Kartın tasarımı */
+.card {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s; /* Küçük bir animasyon efekti */
+}
+
+/* Kartın üzerine gelince hafif büyüme efekti */
+.card:hover {
+    transform: scale(1.05);
+}
+
+.image-placeholder {
+    width: 80px;
+    height: 80px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

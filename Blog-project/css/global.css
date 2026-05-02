@@ -1,0 +1,30 @@
+ /* text styles */
+ .text{ 
+    color: black;
+    font-size: 0.95rem;
+ }
+ .text-center{
+    text-align: center;
+ }
+ .heading-small{
+    font-size: 1.2em;
+ }
+ .heading-medium{
+    font-size: 1.4em;
+ }
+ .heading-big{
+    font-size: 1.7em;
+ }
+/* background styles */
+ .bg-dark-blue{
+    background-color: #021121;
+    width: 100%;
+ }
+ .bg-light-blue{
+    background-color: #082e56;
+ }
+ .container{
+    max-width: 800px;
+    height: 5.8rem;
+    margin: 0 auto;
+ }
